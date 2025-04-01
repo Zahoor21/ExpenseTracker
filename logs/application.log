@@ -11,3 +11,322 @@
 15:32:25.545 [http-nio-8080-exec-45] INFO  in.wavity.ExpenseTracker.MyResource - *** getId() method is started execution. ***
 15:32:25.548 [http-nio-8080-exec-45] WARN  in.wavity.ExpenseTracker.MyResource - This is the warning message.
 15:32:25.548 [http-nio-8080-exec-45] INFO  in.wavity.ExpenseTracker.MyResource - *** getId() method is Ended execution. ***
+15:43:10.102 [http-nio-8080-exec-3] INFO  in.wavity.ExpenseTracker.MyResource - *** getId() method is started execution. ***
+15:43:10.106 [http-nio-8080-exec-3] WARN  in.wavity.ExpenseTracker.MyResource - This is the warning message.
+15:43:10.107 [http-nio-8080-exec-3] INFO  in.wavity.ExpenseTracker.MyResource - *** getId() method is Ended execution. ***
+15:54:13.142 [http-nio-8080-exec-3] INFO  in.wavity.ExpenseTracker.MyResource - *** getId() method is started execution. ***
+15:54:13.145 [http-nio-8080-exec-3] WARN  in.wavity.ExpenseTracker.MyResource - This is the warning message.
+15:54:13.145 [http-nio-8080-exec-3] INFO  in.wavity.ExpenseTracker.MyResource - *** getId() method is Ended execution. ***
+16:00:05.114 [http-nio-8080-exec-8] INFO  i.w.E.service.UserService - Initializing UserService...
+16:00:05.354 [http-nio-8080-exec-8] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: csvPU]
+16:00:05.613 [http-nio-8080-exec-8] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+16:00:05.626 [http-nio-8080-exec-8] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.user], use [jakarta.persistence.jdbc.user] instead
+16:00:05.627 [http-nio-8080-exec-8] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.password], use [jakarta.persistence.jdbc.password] instead
+16:00:05.628 [http-nio-8080-exec-8] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.url], use [jakarta.persistence.jdbc.url] instead
+16:00:05.630 [http-nio-8080-exec-8] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.driver], use [jakarta.persistence.jdbc.driver] instead
+16:00:05.753 [http-nio-8080-exec-8] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+16:00:06.418 [http-nio-8080-exec-8] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+16:00:06.427 [http-nio-8080-exec-8] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+16:00:06.427 [http-nio-8080-exec-8] INFO  o.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/Wavity]
+16:00:06.428 [http-nio-8080-exec-8] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+16:00:06.428 [http-nio-8080-exec-8] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+16:00:06.441 [http-nio-8080-exec-8] INFO  o.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+16:00:07.002 [http-nio-8080-exec-8] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+16:00:07.709 [http-nio-8080-exec-8] INFO  o.hibernate.orm.connections.pooling - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/Wavity]
+16:01:52.322 [http-nio-8080-exec-4] INFO  i.w.E.service.UserService - Initializing UserService...
+16:01:52.458 [http-nio-8080-exec-4] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: csvPU]
+16:01:52.654 [http-nio-8080-exec-4] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+16:01:52.665 [http-nio-8080-exec-4] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.user], use [jakarta.persistence.jdbc.user] instead
+16:01:52.666 [http-nio-8080-exec-4] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.password], use [jakarta.persistence.jdbc.password] instead
+16:01:52.666 [http-nio-8080-exec-4] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.url], use [jakarta.persistence.jdbc.url] instead
+16:01:52.670 [http-nio-8080-exec-4] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.driver], use [jakarta.persistence.jdbc.driver] instead
+16:01:52.777 [http-nio-8080-exec-4] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+16:01:53.282 [http-nio-8080-exec-4] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+16:01:53.292 [http-nio-8080-exec-4] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+16:01:53.292 [http-nio-8080-exec-4] INFO  o.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/Wavity]
+16:01:53.292 [http-nio-8080-exec-4] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+16:01:53.293 [http-nio-8080-exec-4] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+16:01:53.304 [http-nio-8080-exec-4] INFO  o.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+16:01:53.731 [http-nio-8080-exec-4] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+16:01:57.291 [http-nio-8080-exec-4] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+16:01:57.367 [http-nio-8080-exec-4] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@760aab66] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:01:57.514 [http-nio-8080-exec-4] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+16:01:57.514 [http-nio-8080-exec-4] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk_e6gkqunxajvyxl5uctpl2vl2p" of relation "user" does not exist, skipping
+16:01:57.521 [http-nio-8080-exec-4] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+16:01:57.521 [http-nio-8080-exec-4] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk_jreodf78a7pl5qidfh43axdfb" of relation "user" does not exist, skipping
+16:01:57.526 [http-nio-8080-exec-4] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+16:01:57.526 [http-nio-8080-exec-4] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk_e6aye8f1uuil2duvy3m42dcbv" of relation "user_expense" does not exist, skipping
+16:01:57.668 [http-nio-8080-exec-4] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:01:57.811 [http-nio-8080-exec-4] INFO  i.w.E.service.UserService - saveUser method called with user: in.wavity.ExpenseTracker.entity.User@62c591e6
+16:01:57.934 [http-nio-8080-exec-4] INFO  i.w.E.service.UserService - User saved successfully: in.wavity.ExpenseTracker.entity.User@62c591e6
+16:24:14.045 [http-nio-8080-exec-16] INFO  i.w.E.service.UserService - Initializing UserService...
+16:24:14.226 [http-nio-8080-exec-16] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: csvPU]
+16:24:14.447 [http-nio-8080-exec-16] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+16:24:14.460 [http-nio-8080-exec-16] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.user], use [jakarta.persistence.jdbc.user] instead
+16:24:14.462 [http-nio-8080-exec-16] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.password], use [jakarta.persistence.jdbc.password] instead
+16:24:14.462 [http-nio-8080-exec-16] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.url], use [jakarta.persistence.jdbc.url] instead
+16:24:14.465 [http-nio-8080-exec-16] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.driver], use [jakarta.persistence.jdbc.driver] instead
+16:24:14.573 [http-nio-8080-exec-16] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+16:24:15.187 [http-nio-8080-exec-16] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+16:24:15.198 [http-nio-8080-exec-16] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+16:24:15.198 [http-nio-8080-exec-16] INFO  o.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/Wavity]
+16:24:15.199 [http-nio-8080-exec-16] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+16:24:15.199 [http-nio-8080-exec-16] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+16:24:15.213 [http-nio-8080-exec-16] INFO  o.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+16:24:15.668 [http-nio-8080-exec-16] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+16:24:19.068 [http-nio-8080-exec-16] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+16:24:19.150 [http-nio-8080-exec-16] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3d3ebc13] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:24:19.391 [http-nio-8080-exec-16] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:24:19.399 [http-nio-8080-exec-16] INFO  i.w.E.service.UserService - fetchUserById method called with userId: 1
+16:24:23.747 [http-nio-8080-exec-19] INFO  i.w.E.service.UserService - Initializing UserService...
+16:24:23.748 [http-nio-8080-exec-19] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:24:23.748 [http-nio-8080-exec-19] INFO  i.w.E.service.UserService - fetchUserById method called with userId: 1
+16:24:44.797 [http-nio-8080-exec-23] INFO  i.w.E.service.UserService - Initializing UserService...
+16:24:44.797 [http-nio-8080-exec-23] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:24:44.797 [http-nio-8080-exec-23] INFO  i.w.E.service.UserService - fetchAllUsers method called
+16:30:22.394 [http-nio-8080-exec-31] INFO  i.w.E.service.UserService - Initializing UserService...
+16:30:22.525 [http-nio-8080-exec-31] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: csvPU]
+16:30:22.733 [http-nio-8080-exec-31] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+16:30:22.746 [http-nio-8080-exec-31] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.user], use [jakarta.persistence.jdbc.user] instead
+16:30:22.747 [http-nio-8080-exec-31] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.password], use [jakarta.persistence.jdbc.password] instead
+16:30:22.748 [http-nio-8080-exec-31] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.url], use [jakarta.persistence.jdbc.url] instead
+16:30:22.752 [http-nio-8080-exec-31] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.driver], use [jakarta.persistence.jdbc.driver] instead
+16:30:22.854 [http-nio-8080-exec-31] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+16:30:23.375 [http-nio-8080-exec-31] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+16:30:23.382 [http-nio-8080-exec-31] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+16:30:23.383 [http-nio-8080-exec-31] INFO  o.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/Wavity]
+16:30:23.383 [http-nio-8080-exec-31] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+16:30:23.384 [http-nio-8080-exec-31] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+16:30:23.395 [http-nio-8080-exec-31] INFO  o.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+16:30:23.833 [http-nio-8080-exec-31] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+16:30:26.939 [http-nio-8080-exec-31] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+16:30:27.011 [http-nio-8080-exec-31] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@73dc616] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:30:27.251 [http-nio-8080-exec-31] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:30:27.424 [http-nio-8080-exec-31] INFO  i.w.E.service.UserService - deleteUserById method called with id: 1
+16:30:27.626 [http-nio-8080-exec-31] INFO  i.w.E.service.UserService - User with id 1 deleted successfully
+16:34:04.549 [http-nio-8080-exec-39] INFO  i.w.E.service.UserService - Initializing UserService...
+16:34:04.688 [http-nio-8080-exec-39] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: csvPU]
+16:34:04.934 [http-nio-8080-exec-39] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+16:34:04.951 [http-nio-8080-exec-39] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.user], use [jakarta.persistence.jdbc.user] instead
+16:34:04.953 [http-nio-8080-exec-39] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.password], use [jakarta.persistence.jdbc.password] instead
+16:34:04.953 [http-nio-8080-exec-39] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.url], use [jakarta.persistence.jdbc.url] instead
+16:34:04.957 [http-nio-8080-exec-39] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.driver], use [jakarta.persistence.jdbc.driver] instead
+16:34:05.068 [http-nio-8080-exec-39] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+16:34:05.595 [http-nio-8080-exec-39] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+16:34:05.602 [http-nio-8080-exec-39] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+16:34:05.603 [http-nio-8080-exec-39] INFO  o.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/Wavity]
+16:34:05.603 [http-nio-8080-exec-39] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+16:34:05.603 [http-nio-8080-exec-39] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+16:34:05.611 [http-nio-8080-exec-39] INFO  o.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+16:34:06.054 [http-nio-8080-exec-39] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+16:34:09.290 [http-nio-8080-exec-39] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+16:34:09.369 [http-nio-8080-exec-39] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@641eb45b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:34:09.493 [http-nio-8080-exec-39] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+16:34:09.493 [http-nio-8080-exec-39] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk_e6gkqunxajvyxl5uctpl2vl2p" of relation "user" does not exist, skipping
+16:34:09.500 [http-nio-8080-exec-39] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+16:34:09.500 [http-nio-8080-exec-39] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk_jreodf78a7pl5qidfh43axdfb" of relation "user" does not exist, skipping
+16:34:09.509 [http-nio-8080-exec-39] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+16:34:09.510 [http-nio-8080-exec-39] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - constraint "uk_e6aye8f1uuil2duvy3m42dcbv" of relation "user_expense" does not exist, skipping
+16:34:09.663 [http-nio-8080-exec-39] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:34:09.842 [http-nio-8080-exec-39] INFO  i.w.E.service.UserService - saveUser method called with user: in.wavity.ExpenseTracker.entity.User@28f8e2aa
+16:34:09.961 [http-nio-8080-exec-39] INFO  i.w.E.service.UserService - User saved successfully: in.wavity.ExpenseTracker.entity.User@28f8e2aa
+16:34:33.818 [http-nio-8080-exec-41] INFO  i.w.E.service.UserService - Initializing UserService...
+16:34:33.819 [http-nio-8080-exec-41] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:34:33.821 [http-nio-8080-exec-41] INFO  i.w.E.service.UserService - fetchUserById method called with userId: 1
+16:34:42.806 [http-nio-8080-exec-34] INFO  i.w.E.service.UserService - Initializing UserService...
+16:34:42.806 [http-nio-8080-exec-34] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:34:42.807 [http-nio-8080-exec-34] INFO  i.w.E.service.UserService - fetchAllUsers method called
+16:35:06.832 [http-nio-8080-exec-30] INFO  i.w.E.service.UserService - Initializing UserService...
+16:35:06.832 [http-nio-8080-exec-30] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:35:06.841 [http-nio-8080-exec-30] INFO  i.w.E.service.UserService - deleteUserById method called with id: 1
+16:35:06.862 [http-nio-8080-exec-30] INFO  i.w.E.service.UserService - User with id 1 deleted successfully
+16:35:25.328 [http-nio-8080-exec-42] INFO  i.w.E.service.UserService - Initializing UserService...
+16:35:25.328 [http-nio-8080-exec-42] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:35:25.328 [http-nio-8080-exec-42] INFO  i.w.E.service.UserService - fetchAllUsers method called
+16:35:31.232 [http-nio-8080-exec-40] INFO  i.w.E.service.UserService - Initializing UserService...
+16:35:31.233 [http-nio-8080-exec-40] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:35:31.233 [http-nio-8080-exec-40] INFO  i.w.E.service.UserService - fetchUserById method called with userId: 1
+16:36:49.248 [http-nio-8080-exec-44] INFO  i.w.E.service.UserService - Initializing UserService...
+16:36:49.248 [http-nio-8080-exec-44] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:36:49.249 [http-nio-8080-exec-44] INFO  i.w.E.service.UserService - deleteUserById method called with id: 1
+16:36:49.254 [http-nio-8080-exec-44] INFO  i.w.E.service.UserService - User with id 1 deleted successfully
+16:37:02.464 [http-nio-8080-exec-45] INFO  i.w.E.service.UserService - Initializing UserService...
+16:37:02.465 [http-nio-8080-exec-45] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:37:02.466 [http-nio-8080-exec-45] INFO  i.w.E.service.UserService - deleteUserById method called with id: 1
+16:37:02.473 [http-nio-8080-exec-45] INFO  i.w.E.service.UserService - User with id 1 deleted successfully
+16:38:17.482 [http-nio-8080-exec-43] INFO  i.w.E.service.UserService - Initializing UserService...
+16:38:17.623 [http-nio-8080-exec-43] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: csvPU]
+16:38:17.838 [http-nio-8080-exec-43] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+16:38:17.850 [http-nio-8080-exec-43] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.user], use [jakarta.persistence.jdbc.user] instead
+16:38:17.853 [http-nio-8080-exec-43] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.password], use [jakarta.persistence.jdbc.password] instead
+16:38:17.853 [http-nio-8080-exec-43] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.url], use [jakarta.persistence.jdbc.url] instead
+16:38:17.855 [http-nio-8080-exec-43] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.driver], use [jakarta.persistence.jdbc.driver] instead
+16:38:17.949 [http-nio-8080-exec-43] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+16:38:18.477 [http-nio-8080-exec-43] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+16:38:18.484 [http-nio-8080-exec-43] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+16:38:18.484 [http-nio-8080-exec-43] INFO  o.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/Wavity]
+16:38:18.485 [http-nio-8080-exec-43] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+16:38:18.485 [http-nio-8080-exec-43] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+16:38:18.498 [http-nio-8080-exec-43] INFO  o.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+16:38:18.919 [http-nio-8080-exec-43] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+16:38:22.077 [http-nio-8080-exec-43] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+16:38:22.149 [http-nio-8080-exec-43] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@635243bd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:38:22.356 [http-nio-8080-exec-43] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:38:22.486 [http-nio-8080-exec-43] INFO  i.w.E.service.UserService - updateUserById method called with id: 1 and user: in.wavity.ExpenseTracker.entity.User@31b04d46
+16:38:22.684 [http-nio-8080-exec-43] INFO  i.w.E.service.UserService - User with id 1 updated successfully
+16:38:32.037 [http-nio-8080-exec-44] INFO  i.w.E.service.UserService - Initializing UserService...
+16:38:32.037 [http-nio-8080-exec-44] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:38:32.038 [http-nio-8080-exec-44] INFO  i.w.E.service.UserService - fetchUserById method called with userId: 1
+16:38:37.552 [http-nio-8080-exec-48] INFO  i.w.E.service.UserService - Initializing UserService...
+16:38:37.553 [http-nio-8080-exec-48] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:38:37.553 [http-nio-8080-exec-48] INFO  i.w.E.service.UserService - fetchAllUsers method called
+16:39:32.590 [http-nio-8080-exec-51] INFO  i.w.E.service.UserService - Initializing UserService...
+16:39:32.590 [http-nio-8080-exec-51] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:39:32.591 [http-nio-8080-exec-51] INFO  i.w.E.service.UserService - updateUserById method called with id: 1 and user: in.wavity.ExpenseTracker.entity.User@210030e8
+16:39:32.595 [http-nio-8080-exec-51] INFO  i.w.E.service.UserService - User with id 1 updated successfully
+16:39:36.319 [http-nio-8080-exec-52] INFO  i.w.E.service.UserService - Initializing UserService...
+16:39:36.319 [http-nio-8080-exec-52] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:39:36.320 [http-nio-8080-exec-52] INFO  i.w.E.service.UserService - fetchAllUsers method called
+16:42:08.793 [http-nio-8080-exec-46] INFO  i.w.E.service.UserService - Initializing UserService...
+16:42:08.967 [http-nio-8080-exec-46] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: csvPU]
+16:42:09.216 [http-nio-8080-exec-46] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+16:42:09.231 [http-nio-8080-exec-46] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.user], use [jakarta.persistence.jdbc.user] instead
+16:42:09.231 [http-nio-8080-exec-46] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.password], use [jakarta.persistence.jdbc.password] instead
+16:42:09.231 [http-nio-8080-exec-46] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.url], use [jakarta.persistence.jdbc.url] instead
+16:42:09.234 [http-nio-8080-exec-46] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.driver], use [jakarta.persistence.jdbc.driver] instead
+16:42:09.356 [http-nio-8080-exec-46] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+16:42:09.979 [http-nio-8080-exec-46] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+16:42:09.984 [http-nio-8080-exec-46] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+16:42:09.985 [http-nio-8080-exec-46] INFO  o.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/Wavity]
+16:42:09.985 [http-nio-8080-exec-46] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+16:42:09.985 [http-nio-8080-exec-46] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+16:42:09.996 [http-nio-8080-exec-46] INFO  o.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+16:42:10.444 [http-nio-8080-exec-46] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+16:42:13.776 [http-nio-8080-exec-46] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+16:42:13.848 [http-nio-8080-exec-46] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@27d0ed0c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:42:14.072 [http-nio-8080-exec-46] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:42:14.080 [http-nio-8080-exec-46] INFO  i.w.E.service.UserService - fetchAllUsers method called
+16:43:45.233 [http-nio-8080-exec-53] INFO  i.w.E.service.UserService - Initializing UserService...
+16:43:45.363 [http-nio-8080-exec-53] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: csvPU]
+16:43:45.572 [http-nio-8080-exec-53] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+16:43:45.584 [http-nio-8080-exec-53] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.user], use [jakarta.persistence.jdbc.user] instead
+16:43:45.585 [http-nio-8080-exec-53] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.password], use [jakarta.persistence.jdbc.password] instead
+16:43:45.585 [http-nio-8080-exec-53] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.url], use [jakarta.persistence.jdbc.url] instead
+16:43:45.589 [http-nio-8080-exec-53] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.driver], use [jakarta.persistence.jdbc.driver] instead
+16:43:45.686 [http-nio-8080-exec-53] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+16:43:46.201 [http-nio-8080-exec-53] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+16:43:46.208 [http-nio-8080-exec-53] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+16:43:46.208 [http-nio-8080-exec-53] INFO  o.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/Wavity]
+16:43:46.209 [http-nio-8080-exec-53] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+16:43:46.209 [http-nio-8080-exec-53] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+16:43:46.217 [http-nio-8080-exec-53] INFO  o.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+16:43:46.589 [http-nio-8080-exec-53] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+16:43:49.767 [http-nio-8080-exec-53] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+16:43:49.841 [http-nio-8080-exec-53] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4c3c1469] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16:43:50.074 [http-nio-8080-exec-53] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:43:50.081 [http-nio-8080-exec-53] INFO  i.w.E.service.UserService - fetchAllUsers method called
+16:43:54.853 [http-nio-8080-exec-61] INFO  i.w.E.service.UserService - Initializing UserService...
+16:43:54.853 [http-nio-8080-exec-61] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+16:43:54.942 [http-nio-8080-exec-61] INFO  i.w.E.service.UserService - updateUserById method called with id: 1 and user: in.wavity.ExpenseTracker.entity.User@401a0bc3
+16:43:54.987 [http-nio-8080-exec-61] INFO  i.w.E.service.UserService - User with id 1 updated successfully
+17:01:40.110 [http-nio-8080-exec-73] INFO  i.w.E.service.UserService - Initializing UserService...
+17:01:40.263 [http-nio-8080-exec-73] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: csvPU]
+17:01:40.501 [http-nio-8080-exec-73] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+17:01:40.515 [http-nio-8080-exec-73] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.user], use [jakarta.persistence.jdbc.user] instead
+17:01:40.515 [http-nio-8080-exec-73] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.password], use [jakarta.persistence.jdbc.password] instead
+17:01:40.515 [http-nio-8080-exec-73] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.url], use [jakarta.persistence.jdbc.url] instead
+17:01:40.518 [http-nio-8080-exec-73] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.driver], use [jakarta.persistence.jdbc.driver] instead
+17:01:40.625 [http-nio-8080-exec-73] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+17:01:41.147 [http-nio-8080-exec-73] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+17:01:41.153 [http-nio-8080-exec-73] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+17:01:41.153 [http-nio-8080-exec-73] INFO  o.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/Wavity]
+17:01:41.153 [http-nio-8080-exec-73] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+17:01:41.153 [http-nio-8080-exec-73] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+17:01:41.163 [http-nio-8080-exec-73] INFO  o.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+17:01:41.548 [http-nio-8080-exec-73] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+17:01:44.817 [http-nio-8080-exec-73] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17:01:44.905 [http-nio-8080-exec-73] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@68526331] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+17:01:45.029 [http-nio-8080-exec-73] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+17:01:45.188 [http-nio-8080-exec-73] INFO  i.w.E.service.UserService - updateUserById method called with id: 1 and user: in.wavity.ExpenseTracker.entity.User@20ba61c5
+17:01:45.705 [http-nio-8080-exec-73] INFO  i.w.E.service.UserService - User with id 1 updated successfully
+17:01:52.355 [http-nio-8080-exec-74] INFO  i.w.E.service.UserService - Initializing UserService...
+17:01:52.355 [http-nio-8080-exec-74] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+17:01:52.355 [http-nio-8080-exec-74] INFO  i.w.E.service.UserService - fetchAllUsers method called
+17:02:03.503 [http-nio-8080-exec-71] INFO  i.w.E.service.UserService - Initializing UserService...
+17:02:03.503 [http-nio-8080-exec-71] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+17:02:03.503 [http-nio-8080-exec-71] INFO  i.w.E.service.UserService - fetchUserById method called with userId: 1
+17:09:25.298 [http-nio-8080-exec-5] INFO  in.wavity.ExpenseTracker.MyResource - *** getId() method is started execution. ***
+17:09:25.301 [http-nio-8080-exec-5] WARN  in.wavity.ExpenseTracker.MyResource - This is the warning message.
+17:09:25.301 [http-nio-8080-exec-5] INFO  in.wavity.ExpenseTracker.MyResource - *** getId() method is Ended execution. ***
+17:09:39.037 [http-nio-8080-exec-7] INFO  i.w.E.service.UserService - Initializing UserService...
+17:09:39.319 [http-nio-8080-exec-7] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: csvPU]
+17:09:39.553 [http-nio-8080-exec-7] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+17:09:39.566 [http-nio-8080-exec-7] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.user], use [jakarta.persistence.jdbc.user] instead
+17:09:39.567 [http-nio-8080-exec-7] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.password], use [jakarta.persistence.jdbc.password] instead
+17:09:39.567 [http-nio-8080-exec-7] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.url], use [jakarta.persistence.jdbc.url] instead
+17:09:39.570 [http-nio-8080-exec-7] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.driver], use [jakarta.persistence.jdbc.driver] instead
+17:09:39.677 [http-nio-8080-exec-7] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+17:09:40.309 [http-nio-8080-exec-7] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+17:09:40.321 [http-nio-8080-exec-7] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+17:09:40.321 [http-nio-8080-exec-7] INFO  o.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/Wavity]
+17:09:40.321 [http-nio-8080-exec-7] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+17:09:40.322 [http-nio-8080-exec-7] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+17:09:40.336 [http-nio-8080-exec-7] INFO  o.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+17:09:40.861 [http-nio-8080-exec-7] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+17:09:44.462 [http-nio-8080-exec-7] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17:09:44.532 [http-nio-8080-exec-7] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@76b13b52] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+17:09:44.634 [http-nio-8080-exec-7] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+17:09:44.773 [http-nio-8080-exec-7] INFO  i.w.E.service.UserService - saveUser method called with user: in.wavity.ExpenseTracker.entity.User@7287798f
+17:09:44.965 [http-nio-8080-exec-7] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 23505
+17:09:44.965 [http-nio-8080-exec-7] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - ERROR: duplicate key value violates unique constraint "uk_e6gkqunxajvyxl5uctpl2vl2p"
+  Detail: Key (email)=(john.doe@example.com) already exists.
+17:09:44.993 [http-nio-8080-exec-7] INFO  i.w.E.service.UserService - User saved successfully: in.wavity.ExpenseTracker.entity.User@7287798f
+17:10:06.018 [http-nio-8080-exec-9] INFO  i.w.E.service.UserService - Initializing UserService...
+17:10:06.019 [http-nio-8080-exec-9] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+17:10:06.020 [http-nio-8080-exec-9] INFO  i.w.E.service.UserService - saveUser method called with user: in.wavity.ExpenseTracker.entity.User@1dfdd3cb
+17:10:06.064 [http-nio-8080-exec-9] INFO  i.w.E.service.UserService - User saved successfully: in.wavity.ExpenseTracker.entity.User@1dfdd3cb
+17:11:29.899 [http-nio-8080-exec-3] INFO  i.w.E.service.UserService - Initializing UserService...
+17:11:29.900 [http-nio-8080-exec-3] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+17:11:29.903 [http-nio-8080-exec-3] INFO  i.w.E.service.UserService - fetchUserById method called with userId: 3
+17:14:37.145 [http-nio-8080-exec-10] INFO  i.w.E.service.UserService - Initializing UserService...
+17:14:37.291 [http-nio-8080-exec-10] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: csvPU]
+17:14:37.485 [http-nio-8080-exec-10] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+17:14:37.497 [http-nio-8080-exec-10] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.user], use [jakarta.persistence.jdbc.user] instead
+17:14:37.498 [http-nio-8080-exec-10] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.password], use [jakarta.persistence.jdbc.password] instead
+17:14:37.498 [http-nio-8080-exec-10] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.url], use [jakarta.persistence.jdbc.url] instead
+17:14:37.503 [http-nio-8080-exec-10] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.jdbc.driver], use [jakarta.persistence.jdbc.driver] instead
+17:14:37.594 [http-nio-8080-exec-10] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+17:14:38.110 [http-nio-8080-exec-10] WARN  o.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+17:14:38.116 [http-nio-8080-exec-10] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+17:14:38.116 [http-nio-8080-exec-10] INFO  o.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/Wavity]
+17:14:38.116 [http-nio-8080-exec-10] INFO  o.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=postgres}
+17:14:38.117 [http-nio-8080-exec-10] INFO  o.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+17:14:38.128 [http-nio-8080-exec-10] INFO  o.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+17:14:38.521 [http-nio-8080-exec-10] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+17:14:41.468 [http-nio-8080-exec-10] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17:14:41.534 [http-nio-8080-exec-10] INFO  o.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@11d18fc3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+17:14:41.634 [http-nio-8080-exec-10] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+17:14:41.642 [http-nio-8080-exec-10] INFO  i.w.E.service.UserService - fetchUserById method called with userId: 3
+17:14:50.883 [http-nio-8080-exec-1] INFO  i.w.E.service.UserService - Initializing UserService...
+17:14:50.883 [http-nio-8080-exec-1] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+17:14:50.884 [http-nio-8080-exec-1] INFO  i.w.E.service.UserService - fetchAllUsers method called
+17:15:34.930 [http-nio-8080-exec-12] INFO  i.w.E.service.UserService - Initializing UserService...
+17:15:34.930 [http-nio-8080-exec-12] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+17:15:35.037 [http-nio-8080-exec-12] INFO  i.w.E.service.UserService - updateUserById method called with id: 3 and user: in.wavity.ExpenseTracker.entity.User@408d0ee2
+17:15:35.145 [http-nio-8080-exec-12] INFO  i.w.E.service.UserService - User with id 3 updated successfully
+17:15:39.005 [http-nio-8080-exec-13] INFO  i.w.E.service.UserService - Initializing UserService...
+17:15:39.006 [http-nio-8080-exec-13] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+17:15:39.006 [http-nio-8080-exec-13] INFO  i.w.E.service.UserService - fetchAllUsers method called
+17:15:44.111 [http-nio-8080-exec-14] INFO  i.w.E.service.UserService - Initializing UserService...
+17:15:44.112 [http-nio-8080-exec-14] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+17:15:44.112 [http-nio-8080-exec-14] INFO  i.w.E.service.UserService - fetchUserById method called with userId: 3
+17:16:44.958 [http-nio-8080-exec-12] INFO  i.w.E.service.UserService - Initializing UserService...
+17:16:44.958 [http-nio-8080-exec-12] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+17:16:44.959 [http-nio-8080-exec-12] INFO  i.w.E.service.UserService - deleteUserById method called with id: 1
+17:16:44.982 [http-nio-8080-exec-12] INFO  i.w.E.service.UserService - User with id 1 deleted successfully
+17:16:50.219 [http-nio-8080-exec-13] INFO  i.w.E.service.UserService - Initializing UserService...
+17:16:50.220 [http-nio-8080-exec-13] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+17:16:50.220 [http-nio-8080-exec-13] INFO  i.w.E.service.UserService - fetchAllUsers method called
+17:18:08.782 [http-nio-8080-exec-17] INFO  i.w.E.service.UserService - Initializing UserService...
+17:18:08.782 [http-nio-8080-exec-17] INFO  i.w.E.service.UserService - UserRepo instance created successfully.
+17:18:08.782 [http-nio-8080-exec-17] INFO  i.w.E.service.UserService - fetchUserByUserName method called with userName: Ganesh Anu
